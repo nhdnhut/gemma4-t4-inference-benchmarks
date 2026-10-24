@@ -1,0 +1,117 @@
+{
+  "project": "Gemma4_T4_Lab",
+  "date": "2026-10-13",
+  "validation": "CPU/mock only; no T4 results",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4914,
+      "sha256": "aa761e81de9763db04b080110ce7f22701f8a39f3dcc485239ff58f83f8ceb89"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 1742,
+      "sha256": "86310f1bbc9126109a46de5c349852bf7777fb3bdb8d15630d1a3b145fea84cd"
+    },
+    {
+      "path": "build_guide_pdf.py",
+      "bytes": 7912,
+      "sha256": "70648aa55606a1e111230218e2efc862af65af6b68473aff4664f4aedfd9d66f"
+    },
+    {
+      "path": "build_notebooks.py",
+      "bytes": 18739,
+      "sha256": "fe746d2c0b0be60da0377d081eeb8b247e6cb0684fcd9de534c1e85bee966d2f"
+    },
+    {
+      "path": "data/MANUAL_REVIEW.md",
+      "bytes": 1826,
+      "sha256": "3f1f5cb3ba8f671c566e481e70712599651a49c3133ffe6390def5e9b8582dfc"
+    },
+    {
+      "path": "data/manual_review.csv",
+      "bytes": 134,
+      "sha256": "c894b03b348adcd02ff0d6c42f63d2eb3ba5265a91679f21881b3413ec1d4c25"
+    },
+    {
+      "path": "docs/ARCHITECTURE.mmd",
+      "bytes": 435,
+      "sha256": "a1419b398b9232f5c268f5e46a2d144d1834a635b87d614dbf91cd830a6e5ab7"
+    },
+    {
+      "path": "docs/CAM_NANG.md",
+      "bytes": 58538,
+      "sha256": "f05111f25e39e4b870e54930d4a93f8d87fd364464a64a5ccbcdffc012fa2e31"
+    },
+    {
+      "path": "docs/Cam_Nang_Gemma4_T4.pdf",
+      "bytes": 191929,
+      "sha256": "0ece494c4ea4e774d9bc8de4a45cf5174354661ef12398dd540d6e15dc422244"
+    },
+    {
+      "path": "docs/EXPERIMENT_FLOW.mmd",
+      "bytes": 528,
+      "sha256": "681831fba028df4a4a33261c4651834d386cb9636e37748608b428e4e09295aa"
+    },
+    {
+      "path": "docs/ORIGINAL_NOTEBOOK_AUDIT.md",
+      "bytes": 2064,
+      "sha256": "4fe6c5848cedb67eaf6584251202b4249cea6cb9471014159a3645c7ad3d3c06"
+    },
+    {
+      "path": "notebooks/01_Baseline_Gemma4_T4.ipynb",
+      "bytes": 23769,
+      "sha256": "03cdd85707a18509247bb45de36abd533c22af32db0f9d7956a75d6a1b717d38"
+    },
+    {
+      "path": "notebooks/02_Train_Optimize_Gemma4_T4.ipynb",
+      "bytes": 24532,
+      "sha256": "3bfaf136f4881ac8a622a3a834a2a05ddec83e8acc56bf39e87c18a671744b22"
+    },
+    {
+      "path": "notebooks/03_Evaluate_Demo_Gemma4_T4.ipynb",
+      "bytes": 27226,
+      "sha256": "859f9e05bc038d7c5394480a1e8765dc176bc981448dc3c88629550082295ce7"
+    },
+    {
+      "path": "original/Ollama_Gemma4_12B_original.ipynb",
+      "bytes": 34910,
+      "sha256": "abf77319f061e339e1a7fbeb37acb7551b2ccf71d4eae6b1488ed427547614f6"
+    },
+    {
+      "path": "requirements-colab.txt",
+      "bytes": 85,
+      "sha256": "70470336bdaeb5b3cb4e1aeaeaa565cd5a73b74e25fdf2d625f3a6d8bd8beaf2"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 413,
+      "sha256": "dbc93c437c13f4c08f614c411de01d25372e93981c4dcc1af7e156d913f272d2"
+    },
+    {
+      "path": "src/controller.py",
+      "bytes": 6632,
+      "sha256": "128e620a0d59b0850db21756e1369c05e73eeb395534dbf4ec365d88b3e02792"
+    },
+    {
+      "path": "src/dataset.py",
+      "bytes": 2710,
+      "sha256": "161a90e750c68dedd695469a803c79eeb00455930bd0cf44f7da0f61789fbccf"
+    },
+    {
+      "path": "src/gemma_lab.py",
+      "bytes": 20552,
+      "sha256": "dcbcd783e307803b5bf40f43a60d2751af687ea11cb13b34f80d0bd69c846ab3"
+    },
+    {
+      "path": "tests/test_lab.py",
+      "bytes": 6572,
+      "sha256": "fafa09048f4e4379ea3b105c694ad7d1b7cc3d39b4507a6eec0116a06b041bcc"
+    },
+    {
+      "path": "validate_package.py",
+      "bytes": 1317,
+      "sha256": "6781433235718995fffec5864c689e62b9582bdabfe88c30951466d44ad4431d"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+flowchart TD
+    P["Prompt và yêu cầu sinh"] --> N["Notebook điều phối"]
+    C["Cấu hình đã chọn"] --> N
+    N --> O["Ollama trên T4"]
+    M["Gemma 4 12B và draft của artifact"] --> O
+    O --> T["Stream nội dung và số đo engine"]
+    R["Bộ lấy mẫu RAM và VRAM"] --> B["Dữ liệu benchmark"]
+    T --> B
+    B --> V["Train và validation"]
+    V --> C
+    C --> E["Khóa lựa chọn trước test"]

@@ -1,0 +1,10 @@
+flowchart TD
+    A["01: Model, phiên bản và baseline"] --> B["02: Đo ma trận cấu hình"]
+    B --> T["Train predictor bằng train"]
+    T --> V["Validation: bộ nhớ, chất lượng, độ trễ"]
+    V --> G{"Có cấu hình hợp lệ?"}
+    G -->|"Không"| X["Lưu lỗi và phân tích"]
+    G -->|"Có"| L["Khóa selector và best-fixed"]
+    L --> E["03: Chạy lại các đối chứng trên test"]
+    E --> R["Báo cáo số đo và giới hạn"]
+    E --> D["Demo bằng cấu hình đạt kiểm tra"]
