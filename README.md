@@ -1,4 +1,4 @@
-﻿# Gemma-4 Latency Predictor and Inference Benchmark Suite
+# Gemma-4 Latency Predictor and Inference Benchmark Suite
 
 > An empirical benchmarking laboratory and Random Forest latency prediction harness for quantized Gemma models on NVIDIA T4 GPU hardware.
 > Ollama Integration | Latency Predictor Training (Scikit-Learn) | Google Colab T4 Notebooks | Automated PDF Documentation Generator
@@ -27,25 +27,25 @@ Key Components:
 
 ```
 gemma4-t4-inference-benchmarks/
-â”œâ”€â”€ data/                       # Manual review templates and schema examples
-â”œâ”€â”€ docs/                       # Technical guide, Mermaid flowcharts, and audit logs
-â”œâ”€â”€ notebooks/                  # Reproducible Google Colab notebooks
-â”‚   â”œâ”€â”€ 01_Baseline_Gemma4_T4.ipynb
-â”‚   â”œâ”€â”€ 02_Train_Optimize_Gemma4_T4.ipynb
-â”‚   â””â”€â”€ 03_Evaluate_Demo_Gemma4_T4.ipynb
-â”œâ”€â”€ original/                   # Reference notebooks for provenance tracking
-â”œâ”€â”€ results/                    # Documentation on expected output structures
-â”œâ”€â”€ src/                        # Core Python package
-â”‚   â”œâ”€â”€ controller.py           # Process orchestration and telemetry capture
-â”‚   â”œâ”€â”€ dataset.py              # Benchmark prompt generation and splitting
-â”‚   â””â”€â”€ gemma_lab.py            # Latency predictor training and evaluation
-â”œâ”€â”€ tests/                      # Automated unit test suite (15 passed)
-â”œâ”€â”€ build_guide_pdf.py          # Automated PDF documentation generator
-â”œâ”€â”€ build_notebooks.py          # Self-contained notebook builder
-â”œâ”€â”€ validate_package.py         # Integrity and environment validator
-â”œâ”€â”€ requirements-colab.txt      # Dependency specification
-â”œâ”€â”€ LICENSE                     # MIT License
-â””â”€â”€ README.md                   # Project documentation
+├── data/                       # Manual review templates and schema examples
+├── docs/                       # Technical guide, Mermaid flowcharts, and audit logs
+├── notebooks/                  # Reproducible Google Colab notebooks
+│   ├── 01_Baseline_Gemma4_T4.ipynb
+│   ├── 02_Train_Optimize_Gemma4_T4.ipynb
+│   └── 03_Evaluate_Demo_Gemma4_T4.ipynb
+├── original/                   # Reference notebooks for provenance tracking
+├── results/                    # Documentation on expected output structures
+├── src/                        # Core Python package
+│   ├── controller.py           # Process orchestration and telemetry capture
+│   ├── dataset.py              # Benchmark prompt generation and splitting
+│   └── gemma_lab.py            # Latency predictor training and evaluation
+├── tests/                      # Automated unit test suite (15 passed)
+├── build_guide_pdf.py          # Automated PDF documentation generator
+├── build_notebooks.py          # Self-contained notebook builder
+├── validate_package.py         # Integrity and environment validator
+├── requirements-colab.txt      # Dependency specification
+├── LICENSE                     # MIT License
+└── README.md                   # Project documentation
 ```
 
 ---
